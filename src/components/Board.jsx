@@ -1,7 +1,7 @@
 import Square from "./Square";
 import { calculateWinner } from "../utils/calculation";
 
-//**how can props act? be passed from parent? */
+// receive props from GameComponent as a parameter */
 const Board = ({xIsNext, squares, onPlay}) => {
   // set variable winner and put the calculation result in it
   const winner = calculateWinner(squares);
