@@ -1,11 +1,11 @@
 import Square from "./Square";
 import { calculateWinner } from "../utils/calculation";
 
-// receive props from GameComponent as a parameter */
+// Receive props from GameComponent as a parameter */
 const Board = ({xIsNext, squares, onPlay}) => {
-  // set variable winner and put the calculation result in it
+  // Set variable winner and put the calculation result in it
   const winner = calculateWinner(squares);
-  // set variable status and display next player or stop game if someone wins
+  // Set variable status and display next player or stop game if someone wins
   let status;
   if (winner) {
     status = "Winner:" + winner;
@@ -15,7 +15,7 @@ const Board = ({xIsNext, squares, onPlay}) => {
 
   //Function
   function handleClick(i) {
-    // prevent player's move if square already marked or someone already wins
+    // Prevent player's move if square already marked or someone already wins
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
