@@ -51,7 +51,7 @@ const Game = () => {
 
   // RETURN
   return (
-    <div>
+    // <div>
       <div className="game">
         <div className="container">
           <div className="game-board">
@@ -65,7 +65,7 @@ const Game = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

@@ -3,7 +3,7 @@
 }
 
 html, body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   height: 100vh;
   overflow: hidden;
@@ -12,6 +12,7 @@ html, body {
 
 #root {
   text-align: center;
+  margin: 0px auto;
   max-width: 1280px;
   height: 100%;
   display: flex;
