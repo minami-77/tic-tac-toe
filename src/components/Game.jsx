@@ -53,6 +53,7 @@ const Game = () => {
   return (
     // <div>
       <div className="game">
+        <h1>Tic-Tac-Toe</h1>
         <div className="container">
           <div className="game-board">
             {/* pass arguments to BoardComponent*/}
