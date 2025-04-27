@@ -51,7 +51,6 @@ const Game = () => {
 
   // RETURN
   return (
-    // <div>
       <div className="game">
         <h1>Tic-Tac-Toe</h1>
         <div className="container">
@@ -62,11 +61,10 @@ const Game = () => {
             <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay}/>
           </div>
           <div className="game-info">
-            <ol>{moves}</ol>
+            <ul>{moves}</ul>
           </div>
         </div>
       </div>
-    // </div>
   );
 };
 
